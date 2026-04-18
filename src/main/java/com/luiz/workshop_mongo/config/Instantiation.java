@@ -79,6 +79,17 @@ public class Instantiation implements CommandLineRunner {
                 post11, post12, post13, post14, post15, post16, post17, post18, post19, post20
         ));
 
+        u1.getPosts().addAll(Arrays.asList(post1, post2));
+        u2.getPosts().addAll(Arrays.asList(post3, post4));
+        u3.getPosts().addAll(Arrays.asList(post5, post6));
+        u4.getPosts().addAll(Arrays.asList(post7, post8));
+        u5.getPosts().addAll(Arrays.asList(post9, post10));
+        u6.getPosts().addAll(Arrays.asList(post11, post12));
+        u7.getPosts().addAll(Arrays.asList(post13, post14));
+        u8.getPosts().addAll(Arrays.asList(post15, post16));
+        u9.getPosts().addAll(Arrays.asList(post17, post18));
+        u10.getPosts().addAll(Arrays.asList(post19, post20));
+
     }
 
 }
